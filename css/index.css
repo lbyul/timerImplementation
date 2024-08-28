@@ -1,0 +1,44 @@
+#timerpage {
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(240,244,255,1) 0%, rgba(165,182,238,1) 100%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.weniv-logo {
+    display: block;
+    margin-bottom: 60px;
+}
+
+.timer-container {
+    width: 400px;
+    height: 360px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(55,75,124,1) 0%, rgba(85,114,187,1) 100%);
+    box-shadow: 20px 20px 60px 10px #374B7C66;
+    text-align: center;
+}
+
+.timer-container h2 {
+    padding: 48px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.timer-componen {
+    display: flex;
+    justify-content: center;
+
+}
+
+.timer-componen div {
+    border: 1px solid #354971;
+    border-radius: 1px;
+    background: linear-gradient(0deg, rgba(55,75,124,1) 0%, rgba(85,114,187,1) 100%);
+}
