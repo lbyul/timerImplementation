@@ -1,0 +1,100 @@
+/* 마진 패딩 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 박스 계산법 border-box로 바꾸기 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+/* 타이포 설정 */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 1rem;
+    line-height: 1;
+    color: #000;
+}
+
+/* 추가된 타이포그래피 리셋 */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* 주소 스타일 초기화 */
+address {
+    font-style: normal;
+}
+
+/* 리스트 기호 없애기 */
+ol, ul {
+    list-style: none;
+}
+
+/*링크 요소 초기화 */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 이미지 및 멀티미디어 요소 초기화 */
+img, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 폼 요소 초기화 */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1;
+    margin: 0;
+}
+
+/* 버튼 요소 설정 */
+button {
+    cursor: pointer;
+    transition: all 0.1s linear;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* 테이블 초기화 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 컨텐츠 화면에서 숨기기 */
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
